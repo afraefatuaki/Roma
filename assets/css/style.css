@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@300;400;500&display=swap');
+/* font-family: 'Mr Dafoe', cursive;
+font-family: 'Roboto', sans-serif; */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Santio Bold"
+}
+@font-face{
+    font-family: "Santio Bold";
+    src: url("../fonts/Santio\ Bold.otf")
+}
+.parallax{
+    background: rgba(0,0,0,.7) url(../img/cleo-topper.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    background-blend-mode:multiply;
+}
+.Logo{
+    width: 100px;
+    padding: 0 0 60px 10%;
+}
+/* Header */
+ header img{
+    width: 20px
+}
+header p:first-of-type{
+    text-decoration: underline #e7bc0e;
+    color: white;
+    text-align: right;
+    padding-right: 5%;
+}
+header div{
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 10%;
+}
+header h1{
+    padding-top: 15%;
+    padding-left: 10%;
+    color: white;
+    font-size: 70px;
+    line-height: 60px;
+}
+header h2 a{
+    text-decoration: none;
+    color: #e7bc0e;
+    font-family: 'Mr Dafoe', cursive;
+}
+header h2{
+    padding: 5% 0 155px 10%;
+}
+/* second page */
+#section1{
+    padding-top: 25%;
+}
+#section1 p{
+    color: #6bc1a3 ;
+    width: 700px;
+    padding-left: 20%;
+    padding-bottom: 20%;
+    font-size: 30px;
+    line-height: 50px;
+}
+.highlight mark{
+    color: white;
+    background: rgb(93, 90, 90);
+    font-size: 30px;
+}
+/* the section with the logos */
+.division{
+    padding: 0 0 20% 10%;
+}
+.header{
+    color: #e7bc0e;
+    font-size: 80px
+}
+#section3 h1,#section3 h2{
+    color: #cb91b6;
+}
+#section4 h1,#section4 h2{
+    color: #6bc1a3;
+}
+#section5 p{
+    font-size: 30px;
+    padding-bottom: 15%;
+    width: 800px;
+    padding-left: 30%;
+    color: #7eb8e1
+}
+main section:last-of-type{
+    background: url(../img/kid.png) center/cover no-repeat, url(../img/see.png) center no-repeat;
+    padding-bottom: 15%;
+    height: 100vh;
+}
+footer{
+    background-color: black;
+}
+footer h1{
+    color: white;
+    font-size: 70px;
+    width: 600px;
+    padding: 10% 0 5% 9%;
+    line-height: 83px;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 25px;
+    margin-left: 9%
+}
+button:hover{
+    box-shadow: 5px 5px 0px white ;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10%;
+    padding-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+.RomaColor{
+    color:#6bc1a3;
+    font-family: 'Roboto', sans-serif;
+}
+footer a{
+    text-decoration: none;
+}
+.RomaColor:hover{
+    text-decoration: underline;
+}
