@@ -79,6 +79,9 @@ header h2{
     color: #e7bc0e;
     font-size: 80px
 }
+#section2 h2{
+    color: #e7bc0e;
+}
 #section3 h1,#section3 h2{
     color: #cb91b6;
 }
